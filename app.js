@@ -34,10 +34,10 @@ function validateBillAndCashAmount(){
             showError("No Amount to be returned");
         }
         else{
-            showError("Cash is less than bill, please enter right amount")
+            showError("Cash given is less than the bill amount, please enter right amount")
         }
     }else{
-        showError("Enter valid bill amount and Cash Given to Continue");
+        showError("Enter valid Bill Amount and Cash Given to Continue");
     }
 }
 

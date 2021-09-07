@@ -34,7 +34,7 @@ body {
 }
   
 .description {
-    font-size: larger;
+    font-size: 1.3rem;
     margin: 1rem;
 }
   
@@ -81,7 +81,7 @@ input {
     display: block;
 }
   
-#error-message {
+.error-message {
     display: block;
     font-size: 1.3rem;
     padding: 1rem 0rem;
