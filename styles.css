@@ -112,8 +112,6 @@ td {
 
 
 footer{
-    position: fixed;
-    bottom: 0;
     background-color: var(--primary-color);
     text-align: center;
     width: 100%;
