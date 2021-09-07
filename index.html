@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"></link>
+    <title>Cash Register | Ashutosh Kumar</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+
+        <div>
+            <label for="bill-amount">Bill Amount: </label>
+            <input type="text" id="bill-amount"></input>
+            <button id="next-button">Next</button>
+        </div>
+
+        <div class="cashGivenInput">
+            <label for="cash-given">Cash Given: </label>
+            <input type="text" id="cash-given"></input>
+            <button id="check-button">Check</button>
+        </div>
+        
+        <p class="error-message"></p>
+
+        <div class="change-return">
+            <div class="output-table">
+                <table class="change-table">
+                    <caption>Return Change: </caption>
+                    <tr>
+                        <th>No. of notes</th>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                    </tr>
+                    <tr>
+                        <th>Note</th>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>200</td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <footer>
+
+        <p>
+            © | 2021 | AshutoshKumar
+        </p>
+
+        <ul class="list-non-bullet">
+            <li class="list-inline-item" ><a href="https://www.linkedin.com/in/kumar-ashutosh2/" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="images/linkedin.svg" alt=""></a></li>
+            <li class="list-inline-item" ><a href="https://github.com/ashutosh-kumar2" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="images/github.svg" alt=""></a></li>
+            <li class="list-inline-item" ><a href="https://twitter.com/ashutoshh_kk" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="images/twitter.svg" alt=""></a></li>
+            <li class="list-inline-item" ><a href="https://hashnode.com/@ashutoshkumar" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="images/hashnode.svg" alt=""></a></li>
+        </ul>
+
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

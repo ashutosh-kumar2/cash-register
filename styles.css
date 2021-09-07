@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cashGivenInput,.change-return{
+  display: none;
+}
+  
+:root {
+    --primary-color: #1E40AF;
+    --black: #333333;
+    --width-break: 600px;
+}
+  
+body {
+    font-family: "Urbanist", sans-serif;
+    min-width: 50vw;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+  
+.heading {
+    color: var(--primary-color);
+}
+  
+.description {
+    font-size: larger;
+    margin: 1rem;
+}
+  
+label{
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+  
+input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+}
+
+#next-button {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+  
+#check-button {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+  
+#error-message {
+    display: block;
+    font-size: larger;
+    margin: 1rem 0 0;
+}
+  
+
+.change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+}
+  
+.change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+}
+  
+th,
+td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+}
+  
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+    border-top-right-radius: 1rem;
+}
+
+footer p{
+    max-width: var(--width-break);
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.list-non-bullet{
+    list-style: none;
+    padding-inline-start: 0px;
+    padding: 0.5rem 0rem;
+    margin: 0;
+}
+
+.list-inline-item{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.icon {
+    margin-top: 0.625rem;
+	width: 40px;
+	height: 40px;
+    border-radius: 25px;
+}
