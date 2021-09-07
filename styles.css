@@ -40,7 +40,7 @@ body {
   
 label{
     margin: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
   
@@ -83,8 +83,8 @@ input {
   
 #error-message {
     display: block;
-    font-size: larger;
-    margin: 1rem 0 0;
+    font-size: 1.3rem;
+    padding: 1rem 0rem;
 }
   
 
