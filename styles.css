@@ -18,12 +18,12 @@
   
 body {
     font-family: "Urbanist", sans-serif;
-    min-width: 50vw;
+    min-width: 100vw;
 }
 
 .container {
     width: 100%;
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
