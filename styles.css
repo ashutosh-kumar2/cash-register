@@ -108,39 +108,3 @@ td {
     border-collapse: collapse;
     padding: 0.4rem;
 }
-  
-
-
-footer{
-    background-color: var(--primary-color);
-    text-align: center;
-    width: 100%;
-    border-top-right-radius: 1rem;
-}
-
-footer p{
-    max-width: var(--width-break);
-    margin: auto;
-    padding: 1rem;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.list-non-bullet{
-    list-style: none;
-    padding-inline-start: 0px;
-    padding: 0.5rem 0rem;
-    margin: 0;
-}
-
-.list-inline-item{
-    display: inline;
-    padding: 0rem 1rem;
-}
-
-.icon {
-    margin-top: 0.625rem;
-	width: 40px;
-	height: 40px;
-    border-radius: 25px;
-}
