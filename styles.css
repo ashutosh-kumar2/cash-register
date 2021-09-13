@@ -15,10 +15,16 @@
     --black: #333333;
     --width-break: 600px;
 }
+
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
   
 body {
     font-family: "Urbanist", sans-serif;
     min-width: 100vw;
+    height: 100%;
 }
 
 .container {
@@ -89,7 +95,7 @@ input {
   
 
 .change-table {
-    width: 50%;
+    width: 40%;
     text-align: justify;
     border-collapse: collapse;
     margin: auto;
@@ -106,18 +112,26 @@ td {
     border: 2px solid var(--primary-color);
     width: 0%;
     border-collapse: collapse;
-    padding: 0.4rem;
+    padding: 0.3rem;
 }
 
 /* footer */
-  
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -8rem; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 8rem; /* .push must be the same height as .footer */
+}
+
 footer {
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-top: 2rem;
   }
+
   
   footer p {
     font-size: 1.2rem;

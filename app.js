@@ -5,7 +5,7 @@ const nextButton = document.querySelector("#next-button");
 const cashGivenDiv = document.querySelector(".cashGivenInput");
 const errorMessage = document.querySelector(".error-message");
 const changeReturn = document.querySelector(".change-return");
-const availableNotes = [2000, 500, 200, 100, 50, 20, 10, 5, 1];
+const availableNotes = [2000, 500, 100, 50, 20, 10, 5, 1];
 const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 nextButton.addEventListener("click", nextButtonHandler);
