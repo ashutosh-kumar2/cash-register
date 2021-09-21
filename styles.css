@@ -130,6 +130,7 @@ td {
 footer {
     text-align: center;
     margin-top: 2rem;
+    width: 100%;
   }
 
   
@@ -141,13 +142,15 @@ footer {
   
   footer ul {
     padding-inline-start: 0px;
+    padding: 0.5rem 0rem;
+    margin: 0;
   }
   
   a,
   img,
   li {
     display: inline;
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
   }
   
   img {
